@@ -1,0 +1,177 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+
+@font-face {
+    font-family: menu;
+    src: url(../data/KaushanScript-Regular.ttf);
+}
+
+header {
+
+    height: 90px;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #6d071a;
+
+}
+
+h1 {
+
+    color: beige;
+
+    font-weight: bold;
+
+    font-family: menu;
+
+    font-size: 70px;
+
+    margin-left: 20px;
+
+    margin-top: 0;
+}
+
+#menu {
+    font-family: menu;
+    display: inline-block;
+    background-color: #6d071a;
+    border-radius: 10px;
+    border: 0px double #6d071a;
+    color: beige;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#menu:hover {
+    background-color: #9d0a25;
+}
+
+#menuheader {
+
+    display: flex;
+
+}
+
+h2 {
+    font-family: menu;
+}
+
+#log {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: beige;
+
+    font-size: 20px;
+
+    margin-top: 60px;
+
+}
+
+#questions{
+    display: inline-block;
+    background-color: #6d071a;
+    border-radius: 10px;
+    color: beige;
+    font-size: 20px;
+    width: 48%;
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#question{
+
+    display: inline-block;
+    background-color: #6d071a;
+    border-radius: 10px;
+    color: beige;
+    font-size: 20px;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+    text-align: center;
+    
+}
+
+#forum{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+}
+
+#register{
+    margin-top: 20px;
+}
+
+#login{
+    margin-top: 20px;
+}
+
+#objetquestion{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#corpsquestion{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    margin-top: 40px;
+}
+
+#subquestion{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+article{
+    display: inline-block;
+    background-color: #6d071a;
+    border-radius: 10px;
+    color: beige;
+    font-size: 20px;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#auteur{
+    margin-top: 60px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+ 
+#date{
+    margin-top: 1px;
+    font-size: smaller;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+#vote{
+    margin-bottom: 1px;
+    font-size: medium;
+}
